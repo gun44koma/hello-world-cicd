@@ -1,10 +1,10 @@
 name: "Hello World"
 
-on: [pish]
+on: [push]
 
 jobs:
   sample:
-    name: Hello Worls job
+    name: Hello World job
     runs-on:  ubuntu-latest
     steps:
       -run: echo "Hello World!!"
